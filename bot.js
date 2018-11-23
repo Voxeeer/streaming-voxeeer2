@@ -27,7 +27,7 @@ client.user.setStatus("dnd");
 // playing
 
 
-const adminprefix = "v";
+const adminprefix = "^";
 const devs = ['513077451694276613','514454103112286208'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
